@@ -1,0 +1,91 @@
+body{
+    background-color:#589ED9;
+}
+
+.container{
+    margin:0 auto;
+    width: 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header .logo .fa-weibo{
+    font-size:65px;
+    color:white;
+}
+
+.header h1{
+    font-size: 32px;
+    color: white;
+    font-family: 'Open Sans' , sans-serif;
+    margin-top: 10px;
+}
+
+#loginform .containerform{
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+#loginform .containerform input{
+    width: 100%;
+    padding:none;
+    outline:none;
+    border:none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-indent: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans' , sans-serif;
+}
+#loginform .containerform input[type="email"]{
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+
+#loginform .containerform input[type="password"]{
+    border-top: 1px solid #ccc;
+    border-radius: 0px;
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+
+#loginform input[type="submit"]{
+ border: none;
+ background-color: #2186d4;
+ display: block;
+ width: 100%;
+ font-size: 20px;
+ font-family: 'Open Sans' , sans-serif;
+ color: white;
+ padding:10px 0px;
+ margin-top: 10px;
+ font-weight: bold;
+ border-radius: 6px;
+}
+
+#loginform input[type="submit"]:hover{
+    background-color: #0B6AB4;
+    cursor: pointer;
+}
+#footer p{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+#footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
